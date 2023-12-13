@@ -1,0 +1,12 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "script of the sup Repository",
+  "main": "generateWordTune.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "charles-min",
+  "license": "MIT",
+  "type": "module"
+}
