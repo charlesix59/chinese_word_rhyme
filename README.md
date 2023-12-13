@@ -24,7 +24,7 @@
 
 ### 古文解释
 
-所在文件：`explain.json`
+所在文件：`Word_Explain.json`
 
 数据结构：
 
