@@ -3,6 +3,8 @@
 
 仓库维护中，如果你觉得这个仓库对你有用处，并且你也对此感兴趣，请帮我一起维护仓库。
 
+![yoyo project](./yoyo.png)
+
 ## 文件与结构
 
 ### 平水韵
@@ -41,6 +43,40 @@
 }
 ```
 
+### 词谱
+```json
+{
+    "竹枝": { // 词牌名
+        "desc": "唐教坊曲名", // 词牌名描述
+        "formats": [ // 词格
+            {
+                "sketch": "单调十四字，两句两平韵", // 词格简介
+                "author": "皇甫松", // 词格原作者
+                "tunes": [ // 各字平仄
+                    {
+                        "tune": "平"
+                    },
+                    {
+                        "tune": "平"
+                    },
+                    {
+                        "tune": "仄"
+                    },
+                    {
+                        "tune": "仄",
+                        "rhythm": "句"
+                    },
+                    {
+                        "......"
+                    }
+                ],
+                "desc": "《尊前集》载皇甫松《竹枝》词六首" //词格描述
+            },
+        ]
+    }
+}
+```
+
 ## 参考资料与信息源
 
 ### 平水韵
@@ -54,3 +90,7 @@
 [ksanaforge/guhanyu: 古漢語常用字典 (github.com)](https://github.com/ksanaforge/guhanyu)
 
 [pwxcoo/chinese-xinhua: :orange_book: 中华新华字典数据库。包括歇后语，成语，词语，汉字。 (github.com)](https://github.com/pwxcoo/chinese-xinhua)
+
+### 词谱
+
+[曲谱 (sou-yun.cn)](https://sou-yun.cn/QueryQuTune.aspx)
