@@ -8,23 +8,6 @@
 
 ## 文件与结构
 
-### 平水韵索引
-
-所在文件：`Pingshui_Catalog.json`
-
-数据结构：
-
-```json
-{
-    "平韵格": [
-        {
-            "name": "竹枝",
-            "tunes": " 单调十四字"
-        },
-    ]
-}
-```
-
 ### 平水韵
 
 所在文件：`Pingshui_Rhyme.json`
@@ -41,6 +24,25 @@
     }
 }
 ```
+
+### 词林正韵
+
+所在文件：`Cilin_Rhyme.json`
+
+数据结构：
+
+```json
+{
+  "第一部": { // 韵部
+      "平声": [ // 声部
+          "东",
+          "......"
+      ]
+  }
+}
+```
+
+❗：平水韵的韵部和声部与词林正韵的相反
 
 ### 平仄
 
@@ -113,11 +115,29 @@
 }
 ```
 
+### 词谱索引
+
+所在文件：`Ci_Catalog.json`
+
+数据结构：
+
+```json
+{
+    "平韵格": [
+        {
+            "name": "竹枝",
+            "tunes": " 单调十四字"
+        },
+    ]
+}
+```
+
 ## 参考资料与信息源
 
-### 平水韵
+### 韵
 
 [平水韵 - 维基文库，自由的图书馆 (wikisource.org)](https://zh.wikisource.org/zh-hans/%E5%B9%B3%E6%B0%B4%E9%9F%BB)
+[詞林正韻 - 维基文库，自由的图书馆 (wikisource.org)](https://zh.wikisource.org/wiki/%E8%A9%9E%E6%9E%97%E6%AD%A3%E9%9F%BB)
 
 ### 古文释义
 
@@ -127,6 +147,6 @@
 
 [pwxcoo/chinese-xinhua: :orange_book: 中华新华字典数据库。包括歇后语，成语，词语，汉字。 (github.com)](https://github.com/pwxcoo/chinese-xinhua)
 
-### 词谱
+### 谱
 
 [曲谱 (sou-yun.cn)](https://sou-yun.cn/QueryQuTune.aspx)
