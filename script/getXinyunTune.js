@@ -60,5 +60,6 @@ fs.readFile("./script/data/xinyun.txt", { encoding: "utf8" }).then((data) => {
     word[tuneItem] = word[tuneItem] || [];
     word[tuneItem].push(...str.split(""));
   }
+  dir[key] = word;
   fs.writeFile("./data/Xinyun_Rhyme.json", JSON.stringify(dir));
 });
